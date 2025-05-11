@@ -1,8 +1,7 @@
 package src;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
 
 public class lc1365 {
     public static void main(String[] args) {
@@ -12,18 +11,18 @@ public class lc1365 {
     }
 
     public static int[] smallerNumbersThanCurrent(int[] nums) {
-        List<Integer> result = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int[] copy = nums.clone();
+        Arrays.sort(copy);
 
-        for (int n : nums) {
-            int count = 0;
-            for (int n2 : nums) {
-                if (n2 < n) {
-                    count++;
-                }
-            }
-            result.add(count);
+        for (int i = 0; i < copy.length; i++) {
+            map.putIfAbsent(copy[i], i);
         }
 
-        return result.stream().mapToInt(i -> i).toArray();
+        for (int i = 0; i < nums.length; i++) {
+            copy[i] = (map.get(nums[i]));
+        }
+
+        return copy;
     }
 }
