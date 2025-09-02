@@ -31,6 +31,7 @@ Data Structure & Algorithms
 347: https://leetcode.com/problems/top-k-frequent-elements/
 367: https://leetcode.com/problems/valid-perfect-square/
 485: https://leetcode.com/problems/max-consecutive-ones/
+605: https://leetcode.com/problems/can-place-flowers/
 739: https://leetcode.com/problems/daily-temperatures/description/
 771: https://leetcode.com/problems/jewels-and-stones/
 977: https://leetcode.com/problems/squares-of-a-sorted-array/
@@ -55,6 +56,7 @@ Data Structure & Algorithms
 1736: https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/
 1748: https://leetcode.com/problems/sum-of-unique-elements/
 1752: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+1768: https://leetcode.com/problems/merge-strings-alternately/
 1929: https://leetcode.com/problems/concatenation-of-array/
 2011: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
 2160: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
