@@ -67,4 +67,5 @@ Data Structure & Algorithms
 2469: https://leetcode.com/problems/convert-the-temperature/
 2535: https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
 2683: https://leetcode.com/problems/neighboring-bitwise-xor/
+2785: https://leetcode.com/problems/sort-vowels-in-a-string/
 3110: https://leetcode.com/problems/score-of-a-string/description/
