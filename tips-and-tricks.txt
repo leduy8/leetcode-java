@@ -1,0 +1,82 @@
+Cách làm các dạng bài
+
+1. Arrays
+- Ứng dụng list với array
+
+2. String
+- String, Character
+- Convert Arrays và String
+
+3. Hash Table
+- Dùng HashMap
+
+4. Two Pointer
+- Một con trỏ đầu, một con trỏ cuối. Đưa vào vòng while với điều kiện left < hoặc <= right và xử lý bên trong
+
+5. Binary Search
+   - Một con trỏ đầu, một con trỏ cuối. Đưa vào vòng while với điều kiện left < hoặc <= right.
+   - Có thể sử dụng Recursive hoặc Iterative.
+   - Mid = left + (right - left) / 2
+   - Mid > target -> Right = Mid - 1
+   - Mid < target -> Left = Mid + 1
+
+6. Stack
+- Stack hoạt động theo nguyên lý FILO (First In Last Out)
+- Stack có những tính năng như push, pop, peek, size.
+
+7. Monotonic Stack
+- 2 Stack với mục đích sử dụng khác nhau. Trong đó 1 stack sử dụng bình thường, 1 stack sử dụng với mục đích cụ thể.
+
+8. Linked List
+
+9. Doubly-Linked List
+
+10. Math
+- Toán
+
+11. Sliding Window
+- Có 2 kiểu cửa sổ trượt.
+ + Fixed size: 1 vòng for để đi đến size cửa sổ. 1 vòng for tiếp trượt từ size cửa sổ đến hết.
+ + Dynamic size: 1 vòng for rồi 1 điều kiện bên trong để shrink size cửa sổ, được sử dụng trong 1 vòng while. Ra khỏi vòng while ta sẽ expand cửa sổ.
+
+12. Sorting
+- Có sử dụng sort để xử lý bài
+- Có thể gặp những bài in-place sorting (sort trực tiếp trong array)
+
+13. Backtracking
+- Nặng recursive.
+- Có cơ chế để quay lại (backtrack) về điểm an toàn khi đi vào ngõ cụt (điều kiện kết thúc)
+
+13. Prefix Sum
+
+14. Heap (Priority Queue)
+
+15. Matrix
+
+16. Memoization
+
+16. Union Find
+
+17. Shortest Path
+
+18. Topological Sort
+
+19. Concurrency
+
+20. Tree
+
+21. Binary Tree
+
+22. Binary Search Tree
+
+23. Trie
+
+24. Depth-First Search (DFS)
+
+25. Breath-First Search (BFS)
+
+26. Dynamic Programming (DP)
+
+27. Greedy
+
+28. Bit Manipulation

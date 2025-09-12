@@ -23,6 +23,7 @@ Data Structure & Algorithms
 169: https://leetcode.com/problems/majority-element/
 202: https://leetcode.com/problems/happy-number/
 204: https://leetcode.com/problems/count-primes/
+216: https://leetcode.com/problems/combination-sum-iii/
 217: https://leetcode.com/problems/contains-duplicate/
 231: https://leetcode.com/problems/power-of-two/
 238: https://leetcode.com/problems/product-of-array-except-self/
@@ -32,6 +33,7 @@ Data Structure & Algorithms
 367: https://leetcode.com/problems/valid-perfect-square/
 485: https://leetcode.com/problems/max-consecutive-ones/
 605: https://leetcode.com/problems/can-place-flowers/
+643: https://leetcode.com/problems/maximum-average-subarray-i/
 739: https://leetcode.com/problems/daily-temperatures/description/
 771: https://leetcode.com/problems/jewels-and-stones/
 977: https://leetcode.com/problems/squares-of-a-sorted-array/
@@ -42,6 +44,7 @@ Data Structure & Algorithms
 1365: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 1431: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 1446: https://leetcode.com/problems/consecutive-characters/
+1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 1470: https://leetcode.com/problems/shuffle-the-array/
 1480: https://leetcode.com/problems/running-sum-of-1d-array/
 1512: https://leetcode.com/problems/number-of-good-pairs/
@@ -62,6 +65,7 @@ Data Structure & Algorithms
 2160: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
 2181: https://leetcode.com/problems/merge-nodes-in-between-zeros/
 2279: https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
+2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 2325: https://leetcode.com/problems/decode-the-message/
 2413: https://leetcode.com/problems/smallest-even-multiple/
 2469: https://leetcode.com/problems/convert-the-temperature/
