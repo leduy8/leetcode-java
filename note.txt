@@ -29,6 +29,7 @@ Data Structure & Algorithms
 238: https://leetcode.com/problems/product-of-array-except-self/
 242: https://leetcode.com/problems/valid-anagram/description/
 268: https://leetcode.com/problems/missing-number/
+345: https://leetcode.com/problems/reverse-vowels-of-a-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
 367: https://leetcode.com/problems/valid-perfect-square/
 485: https://leetcode.com/problems/max-consecutive-ones/
