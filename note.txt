@@ -18,6 +18,7 @@ Data Structure & Algorithms
 125: https://leetcode.com/problems/valid-palindrome/
 128: https://leetcode.com/problems/longest-consecutive-sequence/description/
 136: https://leetcode.com/problems/single-number/
+151: https://leetcode.com/problems/reverse-words-in-a-string/
 155: https://leetcode.com/problems/min-stack/
 167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 169: https://leetcode.com/problems/majority-element/
@@ -32,6 +33,7 @@ Data Structure & Algorithms
 345: https://leetcode.com/problems/reverse-vowels-of-a-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
 367: https://leetcode.com/problems/valid-perfect-square/
+443: https://leetcode.com/problems/string-compression/
 485: https://leetcode.com/problems/max-consecutive-ones/
 605: https://leetcode.com/problems/can-place-flowers/
 643: https://leetcode.com/problems/maximum-average-subarray-i/

@@ -2,7 +2,7 @@ package src;
 
 import java.util.Set;
 
-public class lc1345 {
+public class lc345 {
     static final Set<Character> VOWELS = Set.of('a', 'u', 'i', 'e', 'o', 'A', 'U', 'I', 'E', 'O');
     
     public static void main(String[] args) {
