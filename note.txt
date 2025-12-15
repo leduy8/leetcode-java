@@ -2,6 +2,7 @@ Data Structure & Algorithms
 
 1: https://leetcode.com/problems/two-sum/
 3: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+5: https://leetcode.com/problems/longest-palindromic-substring/
 7: https://leetcode.com/problems/reverse-integer/
 9: https://leetcode.com/problems/palindrome-number/
 11: https://leetcode.com/problems/container-with-most-water/
