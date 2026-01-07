@@ -41,6 +41,7 @@ Data Structure & Algorithms
 739: https://leetcode.com/problems/daily-temperatures/description/
 771: https://leetcode.com/problems/jewels-and-stones/
 977: https://leetcode.com/problems/squares-of-a-sorted-array/
+1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
 1108: https://leetcode.com/problems/defanging-an-ip-address/
 1221: https://leetcode.com/problems/split-a-string-in-balanced-strings/
 1281: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
