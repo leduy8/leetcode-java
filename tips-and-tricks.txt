@@ -23,6 +23,7 @@ Cách làm các dạng bài
 6. Stack
 - Stack hoạt động theo nguyên lý FILO (First In Last Out)
 - Stack có những tính năng như push, pop, peek, size.
+- Với Java: ưu tiên sử dụng Deque và ArrayDeque thay vì Stack truyền thống (hiện đại hơn)
 
 7. Monotonic Stack
 - 2 Stack với mục đích sử dụng khác nhau. Trong đó 1 stack sử dụng bình thường, 1 stack sử dụng với mục đích cụ thể.
@@ -48,6 +49,8 @@ Cách làm các dạng bài
 - Có cơ chế để quay lại (backtrack) về điểm an toàn khi đi vào ngõ cụt (điều kiện kết thúc)
 
 13. Prefix Sum
+- Loop qua array, sau mỗi vòng lặp, index i sẽ là sum của index 0..i-1
+- Sử dụng dữ liệu trên để tính toán với yêu cầu cụ thể của đề bài
 
 14. Heap (Priority Queue)
 
