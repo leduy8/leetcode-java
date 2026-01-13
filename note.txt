@@ -41,6 +41,7 @@ Data Structure & Algorithms
 605: https://leetcode.com/problems/can-place-flowers/
 643: https://leetcode.com/problems/maximum-average-subarray-i/
 724: https://leetcode.com/problems/find-pivot-index/
+735: https://leetcode.com/problems/asteroid-collision/
 739: https://leetcode.com/problems/daily-temperatures/description/
 771: https://leetcode.com/problems/jewels-and-stones/
 977: https://leetcode.com/problems/squares-of-a-sorted-array/
@@ -77,6 +78,7 @@ Data Structure & Algorithms
 2279: https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
 2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 2325: https://leetcode.com/problems/decode-the-message/
+3290: https://leetcode.com/problems/removing-stars-from-a-string/
 2413: https://leetcode.com/problems/smallest-even-multiple/
 2469: https://leetcode.com/problems/convert-the-temperature/
 2535: https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
