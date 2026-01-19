@@ -16,6 +16,7 @@ Data Structure & Algorithms
 58: https://leetcode.com/problems/length-of-last-word/
 69: https://leetcode.com/problems/sqrtx/
 88: https://leetcode.com/problems/merge-sorted-array/
+104: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 125: https://leetcode.com/problems/valid-palindrome/
 128: https://leetcode.com/problems/longest-consecutive-sequence/description/
 136: https://leetcode.com/problems/single-number/
