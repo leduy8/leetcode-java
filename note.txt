@@ -7,6 +7,7 @@ Data Structure & Algorithms
 9: https://leetcode.com/problems/palindrome-number/
 11: https://leetcode.com/problems/container-with-most-water/
 14: https://leetcode.com/problems/longest-common-prefix/
+15: https://leetcode.com/problems/3sum/
 20: https://leetcode.com/problems/valid-parentheses/
 21: https://leetcode.com/problems/merge-two-sorted-lists/
 27: https://leetcode.com/problems/remove-element/
