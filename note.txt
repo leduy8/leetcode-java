@@ -1,51 +1,35 @@
 Data Structure & Algorithms
 
+-- Easy --
 1: https://leetcode.com/problems/two-sum/
-3: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-5: https://leetcode.com/problems/longest-palindromic-substring/
-7: https://leetcode.com/problems/reverse-integer/
 9: https://leetcode.com/problems/palindrome-number/
-11: https://leetcode.com/problems/container-with-most-water/
 14: https://leetcode.com/problems/longest-common-prefix/
-15: https://leetcode.com/problems/3sum/
 20: https://leetcode.com/problems/valid-parentheses/
 21: https://leetcode.com/problems/merge-two-sorted-lists/
+26: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 27: https://leetcode.com/problems/remove-element/
 28: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 35: https://leetcode.com/problems/search-insert-position/
-49: https://leetcode.com/problems/group-anagrams/
 58: https://leetcode.com/problems/length-of-last-word/
 69: https://leetcode.com/problems/sqrtx/
 88: https://leetcode.com/problems/merge-sorted-array/
 104: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 125: https://leetcode.com/problems/valid-palindrome/
-128: https://leetcode.com/problems/longest-consecutive-sequence/description/
 136: https://leetcode.com/problems/single-number/
-151: https://leetcode.com/problems/reverse-words-in-a-string/
-155: https://leetcode.com/problems/min-stack/
-167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 169: https://leetcode.com/problems/majority-element/
 202: https://leetcode.com/problems/happy-number/
-204: https://leetcode.com/problems/count-primes/
-216: https://leetcode.com/problems/combination-sum-iii/
 217: https://leetcode.com/problems/contains-duplicate/
 231: https://leetcode.com/problems/power-of-two/
-238: https://leetcode.com/problems/product-of-array-except-self/
-242: https://leetcode.com/problems/valid-anagram/description/
+242: https://leetcode.com/problems/valid-anagram/
 268: https://leetcode.com/problems/missing-number/
 283: https://leetcode.com/problems/move-zeroes/
-328: https://leetcode.com/problems/odd-even-linked-list/
 345: https://leetcode.com/problems/reverse-vowels-of-a-string/
-347: https://leetcode.com/problems/top-k-frequent-elements/
 367: https://leetcode.com/problems/valid-perfect-square/
 392: https://leetcode.com/problems/is-subsequence/
-443: https://leetcode.com/problems/string-compression/
 485: https://leetcode.com/problems/max-consecutive-ones/
 605: https://leetcode.com/problems/can-place-flowers/
 643: https://leetcode.com/problems/maximum-average-subarray-i/
 724: https://leetcode.com/problems/find-pivot-index/
-735: https://leetcode.com/problems/asteroid-collision/
-739: https://leetcode.com/problems/daily-temperatures/description/
 771: https://leetcode.com/problems/jewels-and-stones/
 977: https://leetcode.com/problems/squares-of-a-sorted-array/
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
@@ -56,7 +40,6 @@ Data Structure & Algorithms
 1365: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 1431: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 1446: https://leetcode.com/problems/consecutive-characters/
-1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 1470: https://leetcode.com/problems/shuffle-the-array/
 1480: https://leetcode.com/problems/running-sum-of-1d-array/
 1512: https://leetcode.com/problems/number-of-good-pairs/
@@ -68,25 +51,51 @@ Data Structure & Algorithms
 1710: https://leetcode.com/problems/maximum-units-on-a-truck/
 1716: https://leetcode.com/problems/calculate-money-in-leetcode-bank/
 1720: https://leetcode.com/problems/decode-xored-array/
+1732: https://leetcode.com/problems/find-the-highest-altitude/
 1736: https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/
 1748: https://leetcode.com/problems/sum-of-unique-elements/
 1752: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 1768: https://leetcode.com/problems/merge-strings-alternately/
-1732: https://leetcode.com/problems/find-the-highest-altitude/
 1929: https://leetcode.com/problems/concatenation-of-array/
 2011: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
-2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
-2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 2160: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
-2181: https://leetcode.com/problems/merge-nodes-in-between-zeros/
 2215: https://leetcode.com/problems/find-the-difference-of-two-arrays/
-2279: https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
-2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 2325: https://leetcode.com/problems/decode-the-message/
-3290: https://leetcode.com/problems/removing-stars-from-a-string/
 2413: https://leetcode.com/problems/smallest-even-multiple/
 2469: https://leetcode.com/problems/convert-the-temperature/
 2535: https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
+3110: https://leetcode.com/problems/score-of-a-string/description/
+
+
+-- Medium --
+3: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+5: https://leetcode.com/problems/longest-palindromic-substring/
+7: https://leetcode.com/problems/reverse-integer/
+11: https://leetcode.com/problems/container-with-most-water/
+15: https://leetcode.com/problems/3sum/
+49: https://leetcode.com/problems/group-anagrams/
+128: https://leetcode.com/problems/longest-consecutive-sequence/description/
+151: https://leetcode.com/problems/reverse-words-in-a-string/
+155: https://leetcode.com/problems/min-stack/
+167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+204: https://leetcode.com/problems/count-primes/
+216: https://leetcode.com/problems/combination-sum-iii/
+238: https://leetcode.com/problems/product-of-array-except-self/
+328: https://leetcode.com/problems/odd-even-linked-list/
+347: https://leetcode.com/problems/top-k-frequent-elements/
+443: https://leetcode.com/problems/string-compression/
+735: https://leetcode.com/problems/asteroid-collision/
+739: https://leetcode.com/problems/daily-temperatures/
+1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
+2181: https://leetcode.com/problems/merge-nodes-in-between-zeros/
+2279: https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
+2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
+3290: https://leetcode.com/problems/removing-stars-from-a-string/
 2683: https://leetcode.com/problems/neighboring-bitwise-xor/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
-3110: https://leetcode.com/problems/score-of-a-string/description/
+
+
+-- Hard --
+
