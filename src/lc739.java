@@ -1,9 +1,8 @@
 package src;
 
-// Ref: https://youtu.be/cTBiBSnjO3c?si=s9ezFMuu_KSdx1sN
-
+import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.Stack;
+import java.util.Deque;
 
 public class lc739 {
     public static void main(String[] args) {
@@ -14,17 +13,16 @@ public class lc739 {
 
     public static int[] dailyTemperatures(int[] temperatures) {
         int[] result = new int[temperatures.length];
-        Stack<int[]> pairs = new Stack<>();
+        // Stack holds the days waiting for the warmer day
+        Deque<Integer> stack = new ArrayDeque<>();
 
         for (int i = 0; i < temperatures.length; i++) {
-            int t = temperatures[i];
-
-            while (!pairs.isEmpty() && t > pairs.peek()[0]) {
-                int[] pair = pairs.pop();
-                result[pair[1]] = i - pair[1];
+            // When we see a warmer day, pop out then update the index to res (distant = current index - index of day in stack)
+            while (!stack.isEmpty() && temperatures[i] > temperatures[stack.peek()]) {
+                int prevIndex = stack.pop();
+                result[prevIndex] = i - prevIndex;
             }
-
-            pairs.push(new int[]{t, i});
+            stack.push(i);
         }
 
         return result;

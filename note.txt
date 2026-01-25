@@ -82,10 +82,12 @@ Data Structure & Algorithms
 216: https://leetcode.com/problems/combination-sum-iii/
 238: https://leetcode.com/problems/product-of-array-except-self/
 328: https://leetcode.com/problems/odd-even-linked-list/
+394: https://leetcode.com/problems/decode-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
 443: https://leetcode.com/problems/string-compression/
 735: https://leetcode.com/problems/asteroid-collision/
 739: https://leetcode.com/problems/daily-temperatures/
+856: https://leetcode.com/problems/score-of-parentheses/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
