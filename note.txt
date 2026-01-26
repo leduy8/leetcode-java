@@ -64,7 +64,7 @@ Data Structure & Algorithms
 2413: https://leetcode.com/problems/smallest-even-multiple/
 2469: https://leetcode.com/problems/convert-the-temperature/
 2535: https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
-3110: https://leetcode.com/problems/score-of-a-string/description/
+3110: https://leetcode.com/problems/score-of-a-string/
 
 
 -- Medium --
@@ -74,7 +74,7 @@ Data Structure & Algorithms
 11: https://leetcode.com/problems/container-with-most-water/
 15: https://leetcode.com/problems/3sum/
 49: https://leetcode.com/problems/group-anagrams/
-128: https://leetcode.com/problems/longest-consecutive-sequence/description/
+128: https://leetcode.com/problems/longest-consecutive-sequence/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
 155: https://leetcode.com/problems/min-stack/
 167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
@@ -85,6 +85,7 @@ Data Structure & Algorithms
 394: https://leetcode.com/problems/decode-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
 443: https://leetcode.com/problems/string-compression/
+567: https://leetcode.com/problems/permutation-in-string/
 735: https://leetcode.com/problems/asteroid-collision/
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
