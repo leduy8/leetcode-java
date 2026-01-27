@@ -73,10 +73,12 @@ Data Structure & Algorithms
 7: https://leetcode.com/problems/reverse-integer/
 11: https://leetcode.com/problems/container-with-most-water/
 15: https://leetcode.com/problems/3sum/
+33: https://leetcode.com/problems/search-in-rotated-sorted-array/
 49: https://leetcode.com/problems/group-anagrams/
 74: https://leetcode.com/problems/search-a-2d-matrix/
 128: https://leetcode.com/problems/longest-consecutive-sequence/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
+153: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 155: https://leetcode.com/problems/min-stack/
 167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 204: https://leetcode.com/problems/count-primes/
@@ -90,6 +92,7 @@ Data Structure & Algorithms
 735: https://leetcode.com/problems/asteroid-collision/
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
+875: https://leetcode.com/problems/koko-eating-bananas/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
