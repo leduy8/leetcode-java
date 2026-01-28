@@ -73,6 +73,7 @@ Data Structure & Algorithms
 7: https://leetcode.com/problems/reverse-integer/
 11: https://leetcode.com/problems/container-with-most-water/
 15: https://leetcode.com/problems/3sum/
+19: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
 49: https://leetcode.com/problems/group-anagrams/
 74: https://leetcode.com/problems/search-a-2d-matrix/
