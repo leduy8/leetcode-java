@@ -11,6 +11,7 @@ Data Structure & Algorithms
 28: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 35: https://leetcode.com/problems/search-insert-position/
 58: https://leetcode.com/problems/length-of-last-word/
+66: https://leetcode.com/problems/plus-one/
 69: https://leetcode.com/problems/sqrtx/
 88: https://leetcode.com/problems/merge-sorted-array/
 104: https://leetcode.com/problems/maximum-depth-of-binary-tree/
@@ -68,12 +69,14 @@ Data Structure & Algorithms
 
 
 -- Medium --
+2: https://leetcode.com/problems/add-two-numbers/
 3: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 5: https://leetcode.com/problems/longest-palindromic-substring/
 7: https://leetcode.com/problems/reverse-integer/
 11: https://leetcode.com/problems/container-with-most-water/
 15: https://leetcode.com/problems/3sum/
 19: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+24: https://leetcode.com/problems/swap-nodes-in-pairs/
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
 49: https://leetcode.com/problems/group-anagrams/
 74: https://leetcode.com/problems/search-a-2d-matrix/
