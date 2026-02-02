@@ -13,6 +13,7 @@ Data Structure & Algorithms
 58: https://leetcode.com/problems/length-of-last-word/
 66: https://leetcode.com/problems/plus-one/
 69: https://leetcode.com/problems/sqrtx/
+70: https://leetcode.com/problems/climbing-stairs/
 88: https://leetcode.com/problems/merge-sorted-array/
 104: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 125: https://leetcode.com/problems/valid-palindrome/
@@ -79,6 +80,7 @@ Data Structure & Algorithms
 24: https://leetcode.com/problems/swap-nodes-in-pairs/
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
 49: https://leetcode.com/problems/group-anagrams/
+54: https://leetcode.com/problems/spiral-matrix/
 74: https://leetcode.com/problems/search-a-2d-matrix/
 128: https://leetcode.com/problems/longest-consecutive-sequence/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
