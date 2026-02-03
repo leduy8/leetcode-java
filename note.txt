@@ -81,6 +81,7 @@ Data Structure & Algorithms
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
 49: https://leetcode.com/problems/group-anagrams/
 54: https://leetcode.com/problems/spiral-matrix/
+73: https://leetcode.com/problems/set-matrix-zeroes/
 74: https://leetcode.com/problems/search-a-2d-matrix/
 128: https://leetcode.com/problems/longest-consecutive-sequence/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
@@ -90,6 +91,7 @@ Data Structure & Algorithms
 204: https://leetcode.com/problems/count-primes/
 216: https://leetcode.com/problems/combination-sum-iii/
 238: https://leetcode.com/problems/product-of-array-except-self/
+240: https://leetcode.com/problems/search-a-2d-matrix-ii/
 328: https://leetcode.com/problems/odd-even-linked-list/
 394: https://leetcode.com/problems/decode-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/

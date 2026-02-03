@@ -7,21 +7,17 @@ public class lc11 {
     }
 
     public static int maxArea(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
+        int l = 0;
+        int r = height.length - 1;
         int max = 0;
 
-        while (left < right) {
-            int area = Math.min(height[left], height[right]) * (right - left);
-            if (area > max) {
-                max = area;
-            }
+        while (l < r) {
+            int temp = Math.min(height[l], height[r]) * (r - l);
 
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
-            }
+            if (max < temp) max = temp;
+            
+            if (height[l] < height[r]) l++;
+            else r--;
         }
 
         return max;
