@@ -79,6 +79,7 @@ Data Structure & Algorithms
 19: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 24: https://leetcode.com/problems/swap-nodes-in-pairs/
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
+48: https://leetcode.com/problems/rotate-image/
 49: https://leetcode.com/problems/group-anagrams/
 54: https://leetcode.com/problems/spiral-matrix/
 73: https://leetcode.com/problems/set-matrix-zeroes/
