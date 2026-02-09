@@ -84,6 +84,8 @@ Data Structure & Algorithms
 54: https://leetcode.com/problems/spiral-matrix/
 73: https://leetcode.com/problems/set-matrix-zeroes/
 74: https://leetcode.com/problems/search-a-2d-matrix/
+78: https://leetcode.com/problems/subsets/
+90: https://leetcode.com/problems/subsets-ii/
 128: https://leetcode.com/problems/longest-consecutive-sequence/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
 153: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
