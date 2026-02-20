@@ -29,6 +29,7 @@ Data Structure & Algorithms
 367: https://leetcode.com/problems/valid-perfect-square/
 392: https://leetcode.com/problems/is-subsequence/
 485: https://leetcode.com/problems/max-consecutive-ones/
+543: https://leetcode.com/problems/diameter-of-binary-tree/
 605: https://leetcode.com/problems/can-place-flowers/
 643: https://leetcode.com/problems/maximum-average-subarray-i/
 724: https://leetcode.com/problems/find-pivot-index/
@@ -86,6 +87,7 @@ Data Structure & Algorithms
 74: https://leetcode.com/problems/search-a-2d-matrix/
 78: https://leetcode.com/problems/subsets/
 90: https://leetcode.com/problems/subsets-ii/
+98: https://leetcode.com/problems/validate-binary-search-tree/
 128: https://leetcode.com/problems/longest-consecutive-sequence/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
 153: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
@@ -105,6 +107,7 @@ Data Structure & Algorithms
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
 875: https://leetcode.com/problems/koko-eating-bananas/
+1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
