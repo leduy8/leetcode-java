@@ -35,6 +35,7 @@ Data Structure & Algorithms
 724: https://leetcode.com/problems/find-pivot-index/
 771: https://leetcode.com/problems/jewels-and-stones/
 977: https://leetcode.com/problems/squares-of-a-sorted-array/
+1046: https://leetcode.com/problems/last-stone-weight/
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
 1108: https://leetcode.com/problems/defanging-an-ip-address/
 1221: https://leetcode.com/problems/split-a-string-in-balanced-strings/

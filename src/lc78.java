@@ -23,7 +23,7 @@ public class lc78 {
         for (int i = index; i < nums.length; i++) {
             cur.add(nums[i]); // Choose
             subsetDFS(i + 1, nums, cur, res); // Explore
-            cur.removeLast(); // Unchoose
+            cur.remove(cur.size() - 1); // Unchoose
         }
     }
 }
