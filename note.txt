@@ -101,6 +101,7 @@ Data Structure & Algorithms
 240: https://leetcode.com/problems/search-a-2d-matrix-ii/
 322: https://leetcode.com/problems/coin-change/
 328: https://leetcode.com/problems/odd-even-linked-list/
+373: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 394: https://leetcode.com/problems/decode-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
 443: https://leetcode.com/problems/string-compression/
