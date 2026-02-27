@@ -95,6 +95,8 @@ Data Structure & Algorithms
 155: https://leetcode.com/problems/min-stack/
 167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 204: https://leetcode.com/problems/count-primes/
+208: https://leetcode.com/problems/implement-trie-prefix-tree/
+215: https://leetcode.com/problems/kth-largest-element-in-an-array/
 216: https://leetcode.com/problems/combination-sum-iii/
 235: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 238: https://leetcode.com/problems/product-of-array-except-self/
@@ -106,10 +108,12 @@ Data Structure & Algorithms
 347: https://leetcode.com/problems/top-k-frequent-elements/
 443: https://leetcode.com/problems/string-compression/
 567: https://leetcode.com/problems/permutation-in-string/
+621: https://leetcode.com/problems/task-scheduler/
 735: https://leetcode.com/problems/asteroid-collision/
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
 875: https://leetcode.com/problems/koko-eating-bananas/
+1268: https://leetcode.com/problems/search-suggestions-system/
 1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
