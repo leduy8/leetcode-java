@@ -62,6 +62,7 @@ Data Structure & Algorithms
 1768: https://leetcode.com/problems/merge-strings-alternately/
 1929: https://leetcode.com/problems/concatenation-of-array/
 2011: https://leetcode.com/problems/final-value-of-variable-after-performing-operations/
+2037: https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/
 2160: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
 2215: https://leetcode.com/problems/find-the-difference-of-two-arrays/
 2325: https://leetcode.com/problems/decode-the-message/
@@ -114,6 +115,7 @@ Data Structure & Algorithms
 856: https://leetcode.com/problems/score-of-parentheses/
 875: https://leetcode.com/problems/koko-eating-bananas/
 1268: https://leetcode.com/problems/search-suggestions-system/
+1282: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
