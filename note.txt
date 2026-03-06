@@ -95,8 +95,10 @@ Data Structure & Algorithms
 153: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 155: https://leetcode.com/problems/min-stack/
 167: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+198: https://leetcode.com/problems/house-robber/
 204: https://leetcode.com/problems/count-primes/
 208: https://leetcode.com/problems/implement-trie-prefix-tree/
+213: https://leetcode.com/problems/house-robber-ii/
 215: https://leetcode.com/problems/kth-largest-element-in-an-array/
 216: https://leetcode.com/problems/combination-sum-iii/
 235: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
