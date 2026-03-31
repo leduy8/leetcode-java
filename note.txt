@@ -106,6 +106,7 @@ Data Structure & Algorithms
 240: https://leetcode.com/problems/search-a-2d-matrix-ii/
 322: https://leetcode.com/problems/coin-change/
 328: https://leetcode.com/problems/odd-even-linked-list/
+334: https://leetcode.com/problems/increasing-triplet-subsequence/
 373: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 394: https://leetcode.com/problems/decode-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
@@ -120,6 +121,7 @@ Data Structure & Algorithms
 1282: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+1679: https://leetcode.com/problems/max-number-of-k-sum-pairs/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 2181: https://leetcode.com/problems/merge-nodes-in-between-zeros/
