@@ -127,7 +127,8 @@ Data Structure & Algorithms
 2181: https://leetcode.com/problems/merge-nodes-in-between-zeros/
 2279: https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
 2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
-3290: https://leetcode.com/problems/removing-stars-from-a-string/
+2352: https://leetcode.com/problems/equal-row-and-column-pairs/
+2390: https://leetcode.com/problems/removing-stars-from-a-string/
 2683: https://leetcode.com/problems/neighboring-bitwise-xor/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
 
