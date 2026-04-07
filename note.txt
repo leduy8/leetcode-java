@@ -131,6 +131,7 @@ Data Structure & Algorithms
 2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 2352: https://leetcode.com/problems/equal-row-and-column-pairs/
 2390: https://leetcode.com/problems/removing-stars-from-a-string/
+2462: https://leetcode.com/problems/total-cost-to-hire-k-workers/
 2683: https://leetcode.com/problems/neighboring-bitwise-xor/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
 
