@@ -93,6 +93,7 @@ Data Structure & Algorithms
 98: https://leetcode.com/problems/validate-binary-search-tree/
 122: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 128: https://leetcode.com/problems/longest-consecutive-sequence/
+130: https://leetcode.com/problems/surrounded-regions/
 151: https://leetcode.com/problems/reverse-words-in-a-string/
 153: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 155: https://leetcode.com/problems/min-stack/
@@ -120,6 +121,7 @@ Data Structure & Algorithms
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
 875: https://leetcode.com/problems/koko-eating-bananas/
+994: https://leetcode.com/problems/rotting-oranges/
 1268: https://leetcode.com/problems/search-suggestions-system/
 1282: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
