@@ -89,6 +89,7 @@ Data Structure & Algorithms
 73: https://leetcode.com/problems/set-matrix-zeroes/
 74: https://leetcode.com/problems/search-a-2d-matrix/
 78: https://leetcode.com/problems/subsets/
+79: https://leetcode.com/problems/word-search/
 90: https://leetcode.com/problems/subsets-ii/
 98: https://leetcode.com/problems/validate-binary-search-tree/
 122: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
