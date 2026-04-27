@@ -86,8 +86,10 @@ Data Structure & Algorithms
 48: https://leetcode.com/problems/rotate-image/
 49: https://leetcode.com/problems/group-anagrams/
 54: https://leetcode.com/problems/spiral-matrix/
+71: https://leetcode.com/problems/simplify-path/
 73: https://leetcode.com/problems/set-matrix-zeroes/
 74: https://leetcode.com/problems/search-a-2d-matrix/
+75: https://leetcode.com/problems/sort-colors/
 78: https://leetcode.com/problems/subsets/
 79: https://leetcode.com/problems/word-search/
 90: https://leetcode.com/problems/subsets-ii/
@@ -116,8 +118,10 @@ Data Structure & Algorithms
 394: https://leetcode.com/problems/decode-string/
 347: https://leetcode.com/problems/top-k-frequent-elements/
 443: https://leetcode.com/problems/string-compression/
+529: https://leetcode.com/problems/minesweeper/
 567: https://leetcode.com/problems/permutation-in-string/
 621: https://leetcode.com/problems/task-scheduler/
+695: https://leetcode.com/problems/max-area-of-island/
 735: https://leetcode.com/problems/asteroid-collision/
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
