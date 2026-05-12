@@ -39,6 +39,7 @@ Data Structure & Algorithms
 19: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 24: https://leetcode.com/problems/swap-nodes-in-pairs/
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
+34: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 48: https://leetcode.com/problems/rotate-image/
 49: https://leetcode.com/problems/group-anagrams/
 53: https://leetcode.com/problems/maximum-subarray/
@@ -49,6 +50,7 @@ Data Structure & Algorithms
 75: https://leetcode.com/problems/sort-colors/
 78: https://leetcode.com/problems/subsets/
 79: https://leetcode.com/problems/word-search/
+80: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 90: https://leetcode.com/problems/subsets-ii/
 98: https://leetcode.com/problems/validate-binary-search-tree/
 122: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
