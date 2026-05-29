@@ -1,4 +1,7 @@
 Stack / Queue
-lesson42583 - Truck passing by the bridge: https://school.programmers.co.kr/learn/courses/30/lessons/42583
-lesson42587 - Process: https://school.programmers.co.kr/learn/courses/30/lessons/42587
-lesson84512 - Words Made up of Vowels: https://school.programmers.co.kr/learn/courses/30/lessons/84512
+lesson42583   - Truck passing by the bridge: https://school.programmers.co.kr/learn/courses/30/lessons/42583
+lesson42587   - Process: https://school.programmers.co.kr/learn/courses/30/lessons/42587
+lesson42628   - https://school.programmers.co.kr/learn/courses/30/lessons/42628
+lesson42885   - https://school.programmers.co.kr/learn/courses/30/lessons/42885
+lesson84512   - Words Made up of Vowels: https://school.programmers.co.kr/learn/courses/30/lessons/84512
+lesson154540  - https://school.programmers.co.kr/learn/courses/30/lessons/154540
