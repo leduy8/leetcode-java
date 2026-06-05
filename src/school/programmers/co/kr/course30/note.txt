@@ -9,4 +9,4 @@ lesson142085  - Defense game: https://school.programmers.co.kr/learn/courses/30/
 lesson150370  - Validity period of personal information collection: https://school.programmers.co.kr/learn/courses/30/lessons/150370 (x)
 lesson154540  - Desert Island Trip: https://school.programmers.co.kr/learn/courses/30/lessons/154540
 lesson176962  - Proceed with the assignment: https://school.programmers.co.kr/learn/courses/30/lessons/176962 (x)
-lesson178870  - Sum of consecutive subsequences: https://school.programmers.co.kr/learn/courses/30/lessons/178870 (x)
+lesson178870  - Sum of consecutive subsequences: https://school.programmers.co.kr/learn/courses/30/lessons/178870
