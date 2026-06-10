@@ -6,7 +6,7 @@ lesson42885   - Lifeboat: https://school.programmers.co.kr/learn/courses/30/less
 lesson43105   - Integer triangle: https://school.programmers.co.kr/learn/courses/30/lessons/43105
 lesson84512   - Words Made up of Vowels: https://school.programmers.co.kr/learn/courses/30/lessons/84512
 lesson142085  - Defense game: https://school.programmers.co.kr/learn/courses/30/lessons/142085
-lesson150370  - Validity period of personal information collection: https://school.programmers.co.kr/learn/courses/30/lessons/150370 (x)
+lesson150370  - Validity period of personal information collection: https://school.programmers.co.kr/learn/courses/30/lessons/150370
 lesson154540  - Desert Island Trip: https://school.programmers.co.kr/learn/courses/30/lessons/154540
 lesson176962  - Proceed with the assignment: https://school.programmers.co.kr/learn/courses/30/lessons/176962 (x)
 lesson178870  - Sum of consecutive subsequences: https://school.programmers.co.kr/learn/courses/30/lessons/178870
