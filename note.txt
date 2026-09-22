@@ -24,10 +24,15 @@ Data Structure & Algorithms
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
 1365: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 1431: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+1652: https://leetcode.com/problems/defuse-the-bomb/
 1732: https://leetcode.com/problems/find-the-highest-altitude/
+1763: https://leetcode.com/problems/longest-nice-substring/
 1768: https://leetcode.com/problems/merge-strings-alternately/
 2037: https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/
 2215: https://leetcode.com/problems/find-the-difference-of-two-arrays/
+2485: https://leetcode.com/problems/find-the-pivot-integer/
+2574: https://leetcode.com/problems/left-and-right-sum-differences/
+3318: https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/
 
 
 -- Medium --
@@ -75,6 +80,7 @@ Data Structure & Algorithms
 347: https://leetcode.com/problems/top-k-frequent-elements/
 373: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 394: https://leetcode.com/problems/decode-string/
+413: https://leetcode.com/problems/arithmetic-slices/
 443: https://leetcode.com/problems/string-compression/
 529: https://leetcode.com/problems/minesweeper/
 567: https://leetcode.com/problems/permutation-in-string/
@@ -89,13 +95,16 @@ Data Structure & Algorithms
 1282: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+1493: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 1657: https://leetcode.com/problems/determine-if-two-strings-are-close/
 1679: https://leetcode.com/problems/max-number-of-k-sum-pairs/
+1769: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 2352: https://leetcode.com/problems/equal-row-and-column-pairs/
 2390: https://leetcode.com/problems/removing-stars-from-a-string/
+2391: https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 2462: https://leetcode.com/problems/total-cost-to-hire-k-workers/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
 
