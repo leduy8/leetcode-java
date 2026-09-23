@@ -30,6 +30,7 @@ Data Structure & Algorithms
 1768: https://leetcode.com/problems/merge-strings-alternately/
 2037: https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/
 2215: https://leetcode.com/problems/find-the-difference-of-two-arrays/
+2269: https://leetcode.com/problems/find-the-k-beauty-of-a-number/
 2485: https://leetcode.com/problems/find-the-pivot-integer/
 2574: https://leetcode.com/problems/left-and-right-sum-differences/
 3318: https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/
@@ -81,6 +82,7 @@ Data Structure & Algorithms
 373: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 394: https://leetcode.com/problems/decode-string/
 413: https://leetcode.com/problems/arithmetic-slices/
+424: https://leetcode.com/problems/longest-repeating-character-replacement/
 443: https://leetcode.com/problems/string-compression/
 529: https://leetcode.com/problems/minesweeper/
 567: https://leetcode.com/problems/permutation-in-string/
@@ -90,6 +92,7 @@ Data Structure & Algorithms
 739: https://leetcode.com/problems/daily-temperatures/
 856: https://leetcode.com/problems/score-of-parentheses/
 875: https://leetcode.com/problems/koko-eating-bananas/
+904: https://leetcode.com/problems/fruit-into-baskets/
 994: https://leetcode.com/problems/rotting-oranges/
 1268: https://leetcode.com/problems/search-suggestions-system/
 1282: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
