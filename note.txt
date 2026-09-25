@@ -100,6 +100,7 @@ Data Structure & Algorithms
 1456: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 1493: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 1657: https://leetcode.com/problems/determine-if-two-strings-are-close/
+1658: https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/
 1679: https://leetcode.com/problems/max-number-of-k-sum-pairs/
 1769: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
