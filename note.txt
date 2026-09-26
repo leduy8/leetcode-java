@@ -94,6 +94,7 @@ Data Structure & Algorithms
 875: https://leetcode.com/problems/koko-eating-bananas/
 904: https://leetcode.com/problems/fruit-into-baskets/
 994: https://leetcode.com/problems/rotting-oranges/
+1052: https://leetcode.com/problems/grumpy-bookstore-owner/
 1268: https://leetcode.com/problems/search-suggestions-system/
 1282: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 1448: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
