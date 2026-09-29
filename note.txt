@@ -24,6 +24,7 @@ Data Structure & Algorithms
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
 1365: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 1431: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+1614: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 1652: https://leetcode.com/problems/defuse-the-bomb/
 1732: https://leetcode.com/problems/find-the-highest-altitude/
 1763: https://leetcode.com/problems/longest-nice-substring/
@@ -34,6 +35,7 @@ Data Structure & Algorithms
 2269: https://leetcode.com/problems/find-the-k-beauty-of-a-number/
 2485: https://leetcode.com/problems/find-the-pivot-integer/
 2574: https://leetcode.com/problems/left-and-right-sum-differences/
+3258: https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/
 3318: https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/
 
 
@@ -48,6 +50,7 @@ Data Structure & Algorithms
 24: https://leetcode.com/problems/swap-nodes-in-pairs/
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/
 34: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+43: https://leetcode.com/problems/multiply-strings/
 48: https://leetcode.com/problems/rotate-image/
 49: https://leetcode.com/problems/group-anagrams/
 53: https://leetcode.com/problems/maximum-subarray/
@@ -95,6 +98,7 @@ Data Structure & Algorithms
 856: https://leetcode.com/problems/score-of-parentheses/
 875: https://leetcode.com/problems/koko-eating-bananas/
 904: https://leetcode.com/problems/fruit-into-baskets/
+978: https://leetcode.com/problems/longest-turbulent-subarray/
 994: https://leetcode.com/problems/rotting-oranges/
 1031: https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 1052: https://leetcode.com/problems/grumpy-bookstore-owner/
