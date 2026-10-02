@@ -1,6 +1,8 @@
 package src.easy;
 
-import java.util.Stack;
+import java.util.Map;
+import java.util.Deque;
+import java.util.ArrayDeque;
 
 public class lc20 {
     public static void main(String[] args) {
@@ -12,27 +14,26 @@ public class lc20 {
         System.out.println(isValid("[")); // false
     }
 
+    static Map<Character, Character> BRACKETS_MAP = Map.of(
+        '(', ')',
+        '{', '}',
+        '[', ']'
+    );
+
     public static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new ArrayDeque<>();
 
         for (char c : s.toCharArray()) {
-            if (!stack.isEmpty()) {
-                char last = stack.peek();
-                if (isPair(last, c)) {
-                    stack.pop();
-                    continue;
+            if (BRACKETS_MAP.containsKey(c)) {
+                stack.push(c);
+            } else {
+                Character top = stack.poll(); // pop item or null
+                if (top == null || BRACKETS_MAP.get(top) != c) {
+                    return false;
                 }
             }
-
-            stack.push(c);
         }
 
         return stack.isEmpty();
-    }
-
-    public static boolean isPair(char last, char cur) {
-        return (last == '(' && cur == ')') ||
-                (last == '[' && cur == ']') ||
-                (last == '{' && cur == '}');
     }
 }

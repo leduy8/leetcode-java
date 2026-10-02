@@ -12,6 +12,7 @@ Data Structure & Algorithms
 125 : https://leetcode.com/problems/valid-palindrome/
 217 : https://leetcode.com/problems/contains-duplicate/
 242 : https://leetcode.com/problems/valid-anagram/
+268 : https://leetcode.com/problems/missing-number/
 283 : https://leetcode.com/problems/move-zeroes/
 338 : https://leetcode.com/problems/counting-bits/
 345 : https://leetcode.com/problems/reverse-vowels-of-a-string/
