@@ -93,6 +93,7 @@ Data Structure & Algorithms
 424 : https://leetcode.com/problems/longest-repeating-character-replacement/
 443 : https://leetcode.com/problems/string-compression/
 529 : https://leetcode.com/problems/minesweeper/
+540 : https://leetcode.com/problems/single-element-in-a-sorted-array/
 567 : https://leetcode.com/problems/permutation-in-string/
 621 : https://leetcode.com/problems/task-scheduler/
 695 : https://leetcode.com/problems/max-area-of-island/
