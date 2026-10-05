@@ -22,6 +22,7 @@ Data Structure & Algorithms
 643 : https://leetcode.com/problems/maximum-average-subarray-i/
 724 : https://leetcode.com/problems/find-pivot-index/
 771 : https://leetcode.com/problems/jewels-and-stones/
+888 : https://leetcode.com/problems/fair-candy-swap/
 1046: https://leetcode.com/problems/last-stone-weight/
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
 1365: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
@@ -96,6 +97,7 @@ Data Structure & Algorithms
 540 : https://leetcode.com/problems/single-element-in-a-sorted-array/
 567 : https://leetcode.com/problems/permutation-in-string/
 621 : https://leetcode.com/problems/task-scheduler/
+678 : https://leetcode.com/problems/valid-parenthesis-string/
 695 : https://leetcode.com/problems/max-area-of-island/
 735 : https://leetcode.com/problems/asteroid-collision/
 739 : https://leetcode.com/problems/daily-temperatures/
