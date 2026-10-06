@@ -10,19 +10,43 @@ public class lc856 {
         System.out.println(scoreOfParentheses("()()")); // 2
     }
 
+    // Stack
     public static int scoreOfParentheses(String s) {
-        Deque<Integer> stack = new ArrayDeque<>();
+        Deque<Character> stack = new ArrayDeque<>();
         int score = 0;
 
-        for (char c: s.toCharArray()) {
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
             if (c == '(') {
-                stack.push(score);
-                score = 0;
-            } else {
-                score = stack.pop() + Math.max(2 * score, 1);
+                stack.push(c);
+            } else if (c == ')') {
+                stack.poll();
+                if (s.charAt(i - 1) != ')') {
+                    score += Math.pow(2, stack.size());
+                }
             }
         }
 
         return score;
     }
+
+    // No Stack
+    // public static int scoreOfParentheses(String s) {
+    //     int score = 0;
+    //     int depth = 0;
+
+    //     for (int i = 0; i < s.length(); i++) {
+    //         char c = s.charAt(i);
+    //         if (c == '(') {
+    //             depth++;
+    //         } else if (c == ')') {
+    //             depth--;
+    //             if (s.charAt(i - 1) != ')') {
+    //                 score += Math.pow(2, depth);
+    //             }
+    //         }
+    //     }
+
+    //     return score;
+    // }
 }
