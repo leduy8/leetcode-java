@@ -9,38 +9,38 @@ public class lc875 {
     }
 
     public static int minEatingSpeed(int[] piles, int h) {
-        int max = 0;
-        for (int n: piles) {
-            if (n > max) max = n;
-        }
-
+        int minK = Integer.MAX_VALUE;
+        int max = findMax(piles);
         int l = 1;
         int r = max;
-        // Initial min is eating speed to finish the biggest pile
-        int min = r;
 
         while (l <= r) {
-            int k = l + (r - l) / 2;
-            // For large dataset
-            long hours = 0;
-
-            // Get eating speed to finish all piles
-            for (int p: piles) {
-                // Same as: hours += (int) Math.ceil((double) p / k);
-                hours += (p + k - 1L) / k;
-            }
-
-            // If finish eating before guard back, check if that speed is min.
-            // r = k - 1 -> Find out if we can finish eating with slower speed
-            // Else can't finish food on time -> Eat faster
-            if (hours <= h) {
-                min = Math.min(min, k);
-                r = k - 1;
+            int m = l + (r - l) / 2;
+            long eatTime = hoursToEat(piles, m);
+            if (eatTime > h) {
+                l = m + 1;
             } else {
-                l = k + 1;
+                minK = Math.min(minK, m);
+                r = m - 1;
             }
         }
 
-        return min;
+        return minK;
+    }
+
+    public static int findMax(int[] arr) {
+        int max = 0;
+        for (int i : arr) {
+            if (max < i) max = i;
+        }
+        return max;
+    }
+
+    public static long hoursToEat(int[] piles, int curK) {
+        long res = 0;
+        for (int p : piles) {
+            res += (p + curK - 1) / curK;
+        }
+        return res;
     }
 }

@@ -105,6 +105,7 @@ Data Structure & Algorithms
 856 : https://leetcode.com/problems/score-of-parentheses/
 875 : https://leetcode.com/problems/koko-eating-bananas/
 904 : https://leetcode.com/problems/fruit-into-baskets/
+921 : https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 978 : https://leetcode.com/problems/longest-turbulent-subarray/
 994 : https://leetcode.com/problems/rotting-oranges/
 1016: https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/
