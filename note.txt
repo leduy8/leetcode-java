@@ -25,6 +25,7 @@ Data Structure & Algorithms
 888 : https://leetcode.com/problems/fair-candy-swap/
 1046: https://leetcode.com/problems/last-stone-weight/
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
+1351: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 1365: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 1431: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 1614: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
@@ -130,6 +131,7 @@ Data Structure & Algorithms
 2391: https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 2462: https://leetcode.com/problems/total-cost-to-hire-k-workers/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
+3523: https://leetcode.com/problems/make-array-non-decreasing/
 
 
 -- Hard --
