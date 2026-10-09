@@ -23,6 +23,7 @@ Data Structure & Algorithms
 724 : https://leetcode.com/problems/find-pivot-index/
 771 : https://leetcode.com/problems/jewels-and-stones/
 888 : https://leetcode.com/problems/fair-candy-swap/
+1021: https://leetcode.com/problems/remove-outermost-parentheses/
 1046: https://leetcode.com/problems/last-stone-weight/
 1071: https://leetcode.com/problems/greatest-common-divisor-of-strings/
 1351: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
