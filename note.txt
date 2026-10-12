@@ -127,11 +127,13 @@ Data Structure & Algorithms
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
+2333: https://leetcode.com/problems/minimum-sum-of-squared-difference/
 2352: https://leetcode.com/problems/equal-row-and-column-pairs/
 2390: https://leetcode.com/problems/removing-stars-from-a-string/
 2391: https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 2462: https://leetcode.com/problems/total-cost-to-hire-k-workers/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
+3211: https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/
 3523: https://leetcode.com/problems/make-array-non-decreasing/
 
 
