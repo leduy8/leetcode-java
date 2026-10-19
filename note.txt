@@ -16,6 +16,7 @@ Data Structure & Algorithms
 283 : https://leetcode.com/problems/move-zeroes/
 338 : https://leetcode.com/problems/counting-bits/
 345 : https://leetcode.com/problems/reverse-vowels-of-a-string/
+349 : https://leetcode.com/problems/intersection-of-two-arrays/
 392 : https://leetcode.com/problems/is-subsequence/
 543 : https://leetcode.com/problems/diameter-of-binary-tree/
 605 : https://leetcode.com/problems/can-place-flowers/
@@ -81,6 +82,7 @@ Data Structure & Algorithms
 198 : https://leetcode.com/problems/house-robber/
 200 : https://leetcode.com/problems/number-of-islands/
 208 : https://leetcode.com/problems/implement-trie-prefix-tree/
+209 : https://leetcode.com/problems/minimum-size-subarray-sum/
 213 : https://leetcode.com/problems/house-robber-ii/
 215 : https://leetcode.com/problems/kth-largest-element-in-an-array/
 216 : https://leetcode.com/problems/combination-sum-iii/
