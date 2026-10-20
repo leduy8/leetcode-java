@@ -37,6 +37,7 @@ Data Structure & Algorithms
 1768: https://leetcode.com/problems/merge-strings-alternately/
 1984: https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
 2037: https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/
+2089: https://leetcode.com/problems/find-target-indices-after-sorting-array/
 2215: https://leetcode.com/problems/find-the-difference-of-two-arrays/
 2269: https://leetcode.com/problems/find-the-k-beauty-of-a-number/
 2485: https://leetcode.com/problems/find-the-pivot-integer/
