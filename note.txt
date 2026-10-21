@@ -142,6 +142,7 @@ Data Structure & Algorithms
 3211: https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/
 3523: https://leetcode.com/problems/make-array-non-decreasing/
 3727: https://leetcode.com/problems/maximum-alternating-sum-of-squares/
+3863: https://leetcode.com/problems/minimum-operations-to-sort-a-string/
 
 
 -- Hard --
