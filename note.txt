@@ -143,6 +143,7 @@ Data Structure & Algorithms
 3523: https://leetcode.com/problems/make-array-non-decreasing/
 3727: https://leetcode.com/problems/maximum-alternating-sum-of-squares/
 3863: https://leetcode.com/problems/minimum-operations-to-sort-a-string/
+3864: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/
 
 
 -- Hard --
