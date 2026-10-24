@@ -40,6 +40,7 @@ Data Structure & Algorithms
 2089: https://leetcode.com/problems/find-target-indices-after-sorting-array/
 2215: https://leetcode.com/problems/find-the-difference-of-two-arrays/
 2269: https://leetcode.com/problems/find-the-k-beauty-of-a-number/
+2409: https://leetcode.com/problems/count-days-spent-together/
 2485: https://leetcode.com/problems/find-the-pivot-integer/
 2574: https://leetcode.com/problems/left-and-right-sum-differences/
 2873: https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/
