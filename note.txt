@@ -47,6 +47,7 @@ Data Structure & Algorithms
 2970: https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/
 3258: https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/
 3318: https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/
+3963: https://leetcode.com/problems/create-grid-with-exactly-one-path/
 
 
 -- Medium --
