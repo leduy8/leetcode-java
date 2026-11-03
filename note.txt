@@ -10,6 +10,7 @@ Data Structure & Algorithms
 104 : https://leetcode.com/problems/maximum-depth-of-binary-tree/
 121 : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 125 : https://leetcode.com/problems/valid-palindrome/
+203 : https://leetcode.com/problems/remove-linked-list-elements/
 217 : https://leetcode.com/problems/contains-duplicate/
 242 : https://leetcode.com/problems/valid-anagram/
 268 : https://leetcode.com/problems/missing-number/
@@ -133,6 +134,7 @@ Data Structure & Algorithms
 1679: https://leetcode.com/problems/max-number-of-k-sum-pairs/
 1769: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 1828: https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/
+1930: https://leetcode.com/problems/unique-length-3-palindromic-subsequences/
 2095: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 2130: https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 2300: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
