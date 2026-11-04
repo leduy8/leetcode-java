@@ -1,6 +1,14 @@
 package src.easy;
 
 public class lc21 {
+    static class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
+
     public static void main(String[] args) {
         // Create first sorted list: 1 -> 3 -> 5
         ListNode list1 = new ListNode(1, new ListNode(3, new ListNode(5)));
@@ -15,6 +23,7 @@ public class lc21 {
         printList(merged); // Expected: 1 -> 2 -> 3 -> 4 -> 5 -> 6
     }
 
+    // Iterative
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode();
         ListNode cur = head;
@@ -41,6 +50,22 @@ public class lc21 {
         return head.next;
     }
 
+    // public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    //     if (list1 == null) {
+    //         return list2;
+    //     } else if (list2 == null) {
+    //         return list1;
+    //     }
+
+    //     if (list1.val <= list2.val) {
+    //         list1.next = mergeTwoLists(list1.next, list2);
+    //         return list1;
+    //     } else {
+    //         list2.next = mergeTwoLists(list1, list2.next);
+    //         return list2;
+    //     }
+    // }
+
     public static void printList(ListNode node) {
         while (node != null) {
             System.out.print(node.val);
@@ -49,12 +74,4 @@ public class lc21 {
         }
         System.out.println();
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
