@@ -44,6 +44,7 @@ Data Structure & Algorithms
 2409: https://leetcode.com/problems/count-days-spent-together/
 2485: https://leetcode.com/problems/find-the-pivot-integer/
 2574: https://leetcode.com/problems/left-and-right-sum-differences/
+2760: https://leetcode.com/problems/longest-even-odd-subarray-with-threshold/
 2873: https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i/
 2970: https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/
 3258: https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i/
