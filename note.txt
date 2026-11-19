@@ -146,6 +146,7 @@ Data Structure & Algorithms
 2390: https://leetcode.com/problems/removing-stars-from-a-string/
 2391: https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 2462: https://leetcode.com/problems/total-cost-to-hire-k-workers/
+2567: https://leetcode.com/problems/minimum-score-by-changing-two-elements/
 2785: https://leetcode.com/problems/sort-vowels-in-a-string/
 2914: https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/
 3170: https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/
