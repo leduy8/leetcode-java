@@ -1,17 +1,43 @@
 Cách làm các dạng bài
+(Số trong ngoặc [ ] là các bài đã làm trong topics.txt, dùng để tham khảo lại)
 
 1. Arrays
 - Ứng dụng list với array
+- Cần thêm/xóa phần tử thì dùng ArrayList, rồi convert lại sang array nếu đề yêu cầu (list.stream().mapToInt(i -> i).toArray())
+- Đọc kỹ đề: array đã sort chưa? Có yêu cầu in-place không? Có yêu cầu O(1) space không?
+- Bài nào cần duyệt nhiều lần -> nghĩ tới Prefix Sum, Two Pointer, Sliding Window hoặc HashMap để giảm từ O(n^2) xuống O(n)
+- Kadane (max subarray): cur = max(num, cur + num); best = max(best, cur) [53]
+- Tách bài toán thành "trái" và "phải": duyệt 2 lượt, trái -> phải rồi phải -> trái [238]
+- Ví dụ: [1, 217, 238, 283, 1431]
 
 2. String
 - String, Character
 - Convert Arrays và String
+- String là immutable -> nối nhiều lần dùng StringBuilder (append, reverse, insert, setLength)
+- Convert: s.toCharArray(), new String(chars), String.valueOf(chars), String.join(",", list)
+- Đếm ký tự: int[26] với c - 'a' thay vì HashMap (nhanh hơn, gọn hơn) [242, 1657]
+- Bài anagram: sort ký tự hoặc dùng int[26] làm key [49, 242]
+- Palindrome: 2 pointer từ 2 đầu, hoặc expand từ tâm (mở rộng ra 2 bên) [5, 125]
+- Character.isLetterOrDigit(), Character.toLowerCase() hay dùng
+- Ví dụ: [125, 345, 443, 1768, 2785]
 
 3. Hash Table
 - Dùng HashMap
+- HashMap<giá trị, index> cho bài tìm cặp (two sum): với mỗi số, check target - num đã có trong map chưa [1]
+- HashMap<ký tự/số, số lần xuất hiện> cho bài đếm tần suất [347, 1657]
+- HashSet để check tồn tại / loại trùng trong O(1) [217, 128]
+- getOrDefault(key, 0) + 1 để đếm gọn
+- Key có thể là String đã sort, hoặc string ghép (vd "row,col") để group [49, 2352]
+- Ví dụ: [1, 49, 128, 217, 242, 347, 2215]
 
 4. Two Pointer
 - Một con trỏ đầu, một con trỏ cuối. Đưa vào vòng while với điều kiện left < hoặc <= right và xử lý bên trong
+- Dùng khi array/string đã sort hoặc cần so sánh 2 đầu (palindrome, tổng 2 số, container)
+- Tổng nhỏ hơn target -> left++, lớn hơn -> right--
+- Bài 3Sum: sort trước, cố định 1 số rồi two pointer cho 2 số còn lại, nhớ skip phần tử trùng [15]
+- Dạng 2 con trỏ cùng chiều (slow/fast): slow là vị trí ghi, fast là vị trí đọc [26, 80, 283, 443]
+- Dạng 2 con trỏ trên 2 array/string khác nhau: merge, subsequence [392, 1768]
+- Ví dụ: [11, 15, 26, 167, 283, 392, 1679]
 
 5. Binary Search
    - Một con trỏ đầu, một con trỏ cuối. Đưa vào vòng while với điều kiện left < hoặc <= right.
@@ -19,67 +45,289 @@ Cách làm các dạng bài
    - Mid = left + (right - left) / 2
    - Mid > target -> Right = Mid - 1
    - Mid < target -> Left = Mid + 1
+   - Dạng "tìm vị trí đầu tiên / cuối cùng": khi tìm thấy vẫn tiếp tục thu hẹp 1 phía (không return ngay) [34]
+   - Dạng "Binary Search on Answer": đoán đáp án trong khoảng [min, max], viết hàm check(mid) trả về true/false rồi tìm mid nhỏ nhất (hoặc lớn nhất) thỏa mãn [875]
+   - Dạng rotated array: xác định nửa nào đang sorted, rồi xét target nằm trong nửa đó không [33, 153]
+   - Matrix đã sort: coi như array 1 chiều, row = mid / cols, col = mid % cols [74]
+   - Nếu không tìm thấy, left chính là vị trí để insert
+   - Ví dụ: [33, 34, 74, 153, 875, 2300]
 
 6. Stack
 - Stack hoạt động theo nguyên lý FILO (First In Last Out)
 - Stack có những tính năng như push, pop, peek, size.
 - Với Java: ưu tiên sử dụng Deque và ArrayDeque thay vì Stack truyền thống (hiện đại hơn)
+- Dùng cho bài "đóng/mở" (ngoặc), "xóa phần tử kề nhau", "undo": gặp phần tử mới thì so sánh với đỉnh stack [20, 2390]
+- Luôn check stack.isEmpty() trước khi pop/peek
+- Bài decode/nested (ngoặc lồng nhau): push trạng thái hiện tại vào stack khi gặp '[' hoặc '(', pop ra khi gặp đóng [394, 856]
+- Bài simplify path: split theo "/", dùng stack xử lý ".." và "." [71]
+- Ví dụ: [20, 71, 155, 394, 735, 2390]
 
 7. Monotonic Stack
 - 2 Stack với mục đích sử dụng khác nhau. Trong đó 1 stack sử dụng bình thường, 1 stack sử dụng với mục đích cụ thể.
+- Stack luôn giữ thứ tự tăng dần hoặc giảm dần. Trước khi push, pop hết các phần tử phá vỡ thứ tự
+- Thường lưu index vào stack (không lưu giá trị) để tính khoảng cách [739]
+- Dùng cho bài "next greater / next smaller element", "bao lâu nữa thì gặp giá trị lớn hơn"
+- Mỗi phần tử push/pop tối đa 1 lần -> O(n)
+- Ví dụ: [739, 3523]
 
 8. Linked List
+- Dùng dummy node (dummy.next = head) để xử lý trường hợp xóa/thêm tại head, cuối cùng return dummy.next [19, 203]
+- Fast/Slow pointer: tìm giữa list (fast đi 2 bước, slow đi 1 bước) [2095, 2130]
+- Xóa node thứ n từ cuối: cho fast đi trước n bước, sau đó fast và slow cùng đi [19]
+- Đảo ngược list: 3 con trỏ prev, cur, next
+- Vẽ hình ra giấy trước khi code để không mất link; lưu next trước khi đổi cur.next
+- Nhớ check null: head == null, node.next == null
+- Có thể giải bằng Recursion cho gọn [21, 24, 203]
+- Ví dụ: [2, 19, 21, 24, 328]
 
 9. Doubly-Linked List
+- Mỗi node có prev và next, có thể duyệt 2 chiều
+- Hay dùng với dummy head và dummy tail để khỏi xử lý trường hợp biên
+- Xóa node: node.prev.next = node.next; node.next.prev = node.prev
+- Thường kết hợp với HashMap để làm cấu trúc dữ liệu O(1) (vd LRU Cache)
 
 10. Math
 - Toán
+- Bài cộng/nhân số lớn: xử lý từng chữ số, nhớ carry (carry = sum / 10, digit = sum % 10) [2, 43, 66]
+- Chuyển ký tự sang số: c - '0'
+- Chú ý overflow: dùng long khi cần
+- GCD (Euclid): gcd(a, b) = b == 0 ? a : gcd(b, a % b) [1071]
+- Có công thức thì dùng công thức, tránh loop (vd tổng 1..n = n(n+1)/2) [268, 2485]
+- Ví dụ: [2, 12, 43, 66, 1071]
 
 11. Sliding Window
 - Có 2 kiểu cửa sổ trượt.
  + Fixed size: 1 vòng for để đi đến size cửa sổ. 1 vòng for tiếp trượt từ size cửa sổ đến hết.
  + Dynamic size: 1 vòng for rồi 1 điều kiện bên trong để shrink size cửa sổ, được sử dụng trong 1 vòng while. Ra khỏi vòng while ta sẽ expand cửa sổ.
+- Fixed size: mỗi lần trượt thì cộng phần tử mới vào, trừ phần tử cũ ra (nums[i] - nums[i - k]) [643, 1456, 1052]
+- Dynamic size: right là vòng for (expand), left được đẩy lên trong while khi window không hợp lệ (shrink) [3, 209, 424]
+- Tìm window dài nhất: cập nhật kết quả sau khi shrink xong. Tìm window ngắn nhất: cập nhật kết quả bên trong while
+- Thường kết hợp với HashMap hoặc int[26] để đếm ký tự trong window [3, 567]
+- Dấu hiệu nhận biết: "subarray/substring liên tiếp", "dài nhất / ngắn nhất", "tối đa k phần tử"
+- Ví dụ: [3, 209, 424, 567, 643, 904]
 
 12. Sorting
 - Có sử dụng sort để xử lý bài
 - Có thể gặp những bài in-place sorting (sort trực tiếp trong array)
+- Arrays.sort(arr) cho primitive; với object/custom thì dùng comparator: Arrays.sort(arr, (a, b) -> a[0] - b[0])
+- Cẩn thận a - b bị overflow, dùng Integer.compare(a, b)
+- Sort xong thì bài thường chuyển thành Two Pointer hoặc Greedy [15, 2037]
+- Giá trị nằm trong khoảng nhỏ -> dùng Counting Sort thay vì sort thường O(n) [1365, 2037]
+- Dutch National Flag (3 con trỏ low, mid, high) cho bài sort 0-1-2 [75]
+- Bucket Sort: index là tần suất, dùng cho bài top K frequent [347, 692]
+- Quickselect: tìm phần tử lớn thứ k trung bình O(n) [215]
+- Ví dụ: [15, 75, 215, 347, 1365]
 
 13. Backtracking
 - Nặng recursive.
 - Có cơ chế để quay lại (backtrack) về điểm an toàn khi đi vào ngõ cụt (điều kiện kết thúc)
+- Template: chọn (add) -> đệ quy (recurse) -> bỏ chọn (remove phần tử cuối) [78, 90]
+- Khi tìm thấy kết quả phải copy list: result.add(new ArrayList<>(current))
+- Bài có phần tử trùng (subsets II): sort trước, rồi skip nếu nums[i] == nums[i - 1] và i > start [90]
+- Bài trên matrix (word search): đánh dấu ô đã đi (đổi ký tự thành '#'), đệ quy xong thì trả lại ký tự cũ [79]
+- Dùng tham số start để không chọn lại phần tử đứng trước (tránh hoán vị trùng) [78, 216]
+- Pruning: dừng sớm khi không thể thỏa điều kiện (vd tổng đã vượt target) [216]
+- Ví dụ: [78, 79, 90, 216, 3211]
 
-13. Prefix Sum
+14. Prefix Sum
 - Loop qua array, sau mỗi vòng lặp, index i sẽ là sum của index 0..i-1
 - Sử dụng dữ liệu trên để tính toán với yêu cầu cụ thể của đề bài
+- prefix[i] = prefix[i - 1] + nums[i - 1]; sum của đoạn [l, r] = prefix[r + 1] - prefix[l]
+- Tạo mảng size n + 1 để khỏi xử lý trường hợp biên
+- Sum bên trái = prefix, sum bên phải = total - prefix - nums[i] [724, 2574]
+- Prefix + HashMap: tìm subarray có tổng bằng k (lưu prefix đã gặp vào map)
+- Có thể áp dụng cho nhân (prefix product) [238] hoặc đếm ký tự
+- Ví dụ: [238, 724, 1732, 1769, 2574]
 
-14. Heap (Priority Queue)
+15. Heap (Priority Queue)
+- PriorityQueue trong Java mặc định là min-heap. Max-heap: new PriorityQueue<>(Collections.reverseOrder()) hoặc (a, b) -> b - a
+- offer/add, poll, peek: O(log n), O(log n), O(1)
+- Bài "K lớn nhất": dùng min-heap size k, nếu size > k thì poll -> đỉnh heap là phần tử lớn thứ k [215]
+- Bài "K nhỏ nhất": dùng max-heap size k
+- Bài top K frequent: HashMap đếm tần suất rồi đưa vào heap [347, 692]
+- Bài lấy 2 phần tử lớn nhất liên tục (stone game): max-heap, poll 2 cái, xử lý, offer lại [1046]
+- Heap lưu mảng/object: dùng comparator theo giá trị cần so sánh [373]
+- Ví dụ: [215, 347, 1046, 2462]
 
-15. Matrix
+16. Matrix
+- Duyệt 4 hướng: int[][] dirs = {{0,1},{1,0},{0,-1},{-1,0}}; duyệt 8 hướng thì thêm 4 đường chéo
+- Luôn check biên: r >= 0 && r < rows && c >= 0 && c < cols
+- Rotate 90 độ: transpose rồi reverse từng hàng [48]
+- Spiral: 4 biến top, bottom, left, right, thu hẹp dần sau mỗi cạnh [54]
+- Set zeroes in-place: dùng hàng/cột đầu làm marker để tiết kiệm space [73]
+- Matrix đã sort theo hàng và cột: bắt đầu từ góc trên phải (hoặc dưới trái), lớn hơn thì đi xuống, nhỏ hơn thì đi sang trái [240]
+- Bài island/vùng liên thông: DFS hoặc BFS [200, 695]
+- Ví dụ: [48, 54, 73, 74, 200]
 
-16. Memoization
+17. Memoization
+- Recursion + lưu kết quả đã tính (HashMap hoặc array memo) để không tính lại
+- Điều kiện: bài có sub-problem lặp lại (vd fib, climbing stairs) [70]
+- Template: nếu memo[n] đã có thì return luôn; nếu chưa thì tính, lưu vào memo rồi return
+- Đây là Dynamic Programming kiểu top-down. Muốn bottom-up thì chuyển sang vòng for
 
-16. Union Find
+18. Union Find
+- 2 hàm chính: find (tìm root) và union (gộp 2 tập)
+- Tối ưu: path compression (parent[x] = find(parent[x])) và union by rank/size
+- Dùng cho bài "các phần tử có cùng nhóm không", "đếm số nhóm liên thông" [128, 200, 695]
+- Mỗi lần union thành công thì số nhóm giảm 1
+- Matrix: map ô (r, c) thành index r * cols + c
 
-17. Shortest Path
+19. Shortest Path
+- Graph không trọng số (hoặc mọi cạnh bằng nhau): dùng BFS, số level chính là khoảng cách [994]
+- Graph có trọng số không âm: Dijkstra (PriorityQueue, lưu dist[] và chỉ cập nhật khi tìm được đường ngắn hơn)
+- Có trọng số âm: Bellman-Ford
+- Multi-source BFS: đưa tất cả điểm bắt đầu vào queue từ đầu (vd rotting oranges) [994]
 
-18. Topological Sort
+20. Topological Sort
+- Dùng cho graph có hướng, không có chu trình (DAG), bài về thứ tự phụ thuộc (course schedule)
+- Cách 1 (Kahn - BFS): tính indegree, đưa node indegree = 0 vào queue, poll ra rồi giảm indegree của các node kề
+- Cách 2: DFS rồi đảo ngược thứ tự post-order
+- Nếu số node xử lý được < tổng số node -> có chu trình
 
-19. Concurrency
+21. Concurrency
+- Thread, Runnable, ExecutorService
+- synchronized, ReentrantLock để tránh race condition
+- Semaphore, CountDownLatch, CyclicBarrier để điều phối thứ tự giữa các thread
+- Bài thường yêu cầu các thread chạy theo thứ tự nhất định (print in order, FooBar...)
+- wait()/notify() hoặc BlockingQueue cho bài producer-consumer
 
-20. Tree
+22. Tree
+- Hầu hết bài giải bằng Recursion (DFS) hoặc BFS (queue)
+- Luôn xử lý base case: node == null
+- Tư duy: "giả sử con trái và con phải đã được giải xong, ta cần làm gì ở node hiện tại?"
+- Ví dụ: [104, 543, 1448]
 
-21. Binary Tree
+23. Binary Tree
+- Mỗi node tối đa 2 con (left, right)
+- 3 kiểu duyệt DFS: preorder (node -> trái -> phải), inorder (trái -> node -> phải), postorder (trái -> phải -> node)
+- Level order: BFS với queue, dùng size của queue để biết số node trong mỗi level
+- Bài chiều cao/đường kính: return độ sâu từ hàm đệ quy, và cập nhật kết quả toàn cục (biến global) bên trong [104, 543]
+- Bài truyền thông tin từ trên xuống: thêm tham số vào hàm đệ quy (vd max đến hiện tại) [1448]
+- Ví dụ: [104, 543, 1448]
 
-22. Binary Search Tree
+24. Binary Search Tree
+- Tính chất: trái < node < phải. Duyệt inorder ra dãy tăng dần
+- Search/insert: so sánh với node rồi đi trái hoặc phải, O(h)
+- Validate BST: truyền (min, max) xuống, không chỉ so sánh với node cha [98]
+- LCA trong BST: nếu p, q cùng nhỏ hơn node thì đi trái, cùng lớn hơn thì đi phải, còn lại node hiện tại là LCA [235]
+- Ví dụ: [98, 235]
 
-23. Trie
+25. Trie
+- Mỗi node có children (array 26 hoặc HashMap) và cờ isEnd
+- 3 thao tác chính: insert, search, startsWith - đều đi theo từng ký tự của word [208]
+- Dùng cho bài prefix, autocomplete, tìm từ trong dictionary [1268]
+- Lưu ý khác biệt giữa "có prefix" và "là từ hoàn chỉnh" (isEnd)
 
-24. Depth-First Search (DFS)
+26. Depth-First Search (DFS)
+- Đi sâu hết 1 nhánh rồi mới quay lại. Dùng Recursion hoặc Stack
+- Với graph/matrix cần visited (set hoặc đổi giá trị ô) để tránh lặp vô hạn [200, 695]
+- Bài đếm vùng liên thông (island): lặp qua từng ô, gặp ô chưa thăm thì DFS và đếm +1 [200]
+- Bài tính diện tích: DFS return 1 + tổng DFS của các hướng [695]
+- Bài "surrounded regions": DFS từ biên vào để đánh dấu những ô không bị bao quanh [130]
+- Ví dụ: [79, 130, 200, 695]
 
-25. Breath-First Search (BFS)
+27. Breadth-First Search (BFS)
+- Duyệt từng level, dùng Queue (ArrayDeque / LinkedList)
+- Template: queue.offer(start); while (!queue.isEmpty()) { int size = queue.size(); for (i < size) { poll -> xử lý -> offer các node kề } level++ }
+- Đánh dấu visited ngay khi offer (không đợi tới lúc poll) để tránh thêm trùng
+- BFS cho kết quả đường đi ngắn nhất trong graph không trọng số [322, 994]
+- Multi-source BFS: đưa tất cả nguồn vào queue từ đầu [994]
+- Ví dụ: [104, 200, 994]
 
-26. Dynamic Programming (DP)
+28. Dynamic Programming (DP)
+- Bước 1: định nghĩa dp[i] nghĩa là gì. Bước 2: tìm công thức chuyển (recurrence). Bước 3: base case. Bước 4: thứ tự tính
+- Top-down: Recursion + Memoization. Bottom-up: vòng for điền bảng dp
+- Tối ưu space: nếu dp[i] chỉ phụ thuộc dp[i-1], dp[i-2] thì dùng vài biến thay vì cả mảng [70, 198]
+- Dạng 1D: climbing stairs, house robber -> dp[i] = max(dp[i-1], dp[i-2] + nums[i]) [70, 198, 213]
+- House Robber II (vòng tròn): chạy 2 lần, bỏ phần tử đầu rồi bỏ phần tử cuối, lấy max [213]
+- Dạng Knapsack/Coin change: dp[amount] = min(dp[amount - coin] + 1), khởi tạo giá trị lớn (amount + 1) [322]
+- Dạng subarray/subsequence: dp[i] là kết quả kết thúc tại i [53, 413, 978]
+- Ví dụ: [70, 198, 322, 338, 413]
 
-27. Greedy
+29. Greedy
+- Ở mỗi bước chọn lựa chọn tốt nhất tại thời điểm đó, hy vọng ra kết quả tối ưu toàn cục
+- Thường cần sort trước rồi xử lý theo thứ tự [2037, 2567]
+- Thử đưa ra phản ví dụ để kiểm tra greedy có đúng không trước khi code
+- Bài mua bán cổ phiếu II: cộng tất cả các lần tăng giá liên tiếp [122]
+- Bài ngoặc: giữ biến đếm số "(" đang mở, thêm "(" hoặc ")" cần bù khi gặp ngoặc thừa [921, 678]
+- Bài lấy 2 đầu (container with most water): luôn di chuyển con trỏ có giá trị nhỏ hơn [11]
+- Ví dụ: [11, 122, 605, 921, 2037]
 
-28. Bit Manipulation
+30. Bit Manipulation
+- Toán tử: & (and), | (or), ^ (xor), ~ (not), << (dịch trái), >> (dịch phải)
+- XOR: a ^ a = 0, a ^ 0 = a -> tìm số bị thiếu / số xuất hiện 1 lần [268]
+- Check bit thứ i: (n >> i) & 1. Set bit: n | (1 << i). Clear bit: n & ~(1 << i)
+- n & (n - 1): xóa bit 1 thấp nhất. Dùng đếm số bit 1 [338]
+- Dùng bitmask để biểu diễn subsets: duyệt mask từ 0 đến (1 << n) - 1 [78]
+- Dùng int làm set cho ký tự (26 bit) [1763]
+- Ví dụ: [268, 338, 3095]
+
+31. Hash Set / Counting
+- Bài đếm số lần xuất hiện: int[] (khi giá trị nhỏ) hoặc HashMap
+- Hai chuỗi/mảng có "cùng cấu trúc" -> so sánh bảng đếm (frequency) [1657]
+- Ví dụ: [347, 621, 692, 1657]
+
+32. Bracket Sequences (Dãy ngoặc)
+- Dùng Stack hoặc biến đếm (balance): gặp "(" thì +1, gặp ")" thì -1
+- balance < 0 -> có ")" thừa; cuối cùng balance > 0 -> có "(" thừa [921, 1614]
+- Bài có ký tự '*' (wildcard): giữ khoảng [low, high] của balance có thể [678]
+- Bài tính điểm/độ sâu: dùng depth, depth tăng khi gặp "(" và giảm khi gặp ")" [856, 1021, 1614]
+- Ví dụ: [20, 678, 921, 1614]
+
+33. Divide and Conquer
+- Chia bài toán thành các bài nhỏ hơn giống nhau, giải từng phần rồi gộp kết quả
+- 3 bước: Divide (chia) -> Conquer (giải đệ quy) -> Combine (gộp)
+- Ví dụ: Merge sort, Quicksort / Quickselect [215], max subarray [53], search matrix II [240]
+
+34. Design
+- Chọn đúng cấu trúc dữ liệu cho từng thao tác để đạt độ phức tạp yêu cầu (thường O(1))
+- Min Stack: dùng thêm 1 stack lưu giá trị min tại mỗi thời điểm [155]
+- Trie: map ký tự -> node con [208]
+- Time-based key value: HashMap<key, List<(timestamp, value)>> + Binary Search để lấy giá trị gần nhất [981]
+- Nhiều khi kết hợp HashMap + List/LinkedList
+
+35. Recursion
+- Luôn có base case (điểm dừng) và recursive case (thu nhỏ bài toán)
+- Tin tưởng hàm đệ quy: giả sử hàm đã đúng cho input nhỏ hơn, mình chỉ xử lý bước hiện tại
+- Dùng tốt cho Linked List, Tree, Backtracking [21, 24, 203, 394]
+- Cẩn thận StackOverflow khi độ sâu lớn, khi đó chuyển sang vòng lặp / stack
+
+36. Simulation
+- Làm theo đúng mô tả đề bài, từng bước một
+- Chú ý các trường hợp biên và thứ tự xử lý [43, 54, 735, 2390]
+- Chọn cấu trúc dữ liệu phù hợp để mô phỏng (stack, queue, heap) [735, 2462]
+
+37. Enumeration
+- Thử hết mọi khả năng (brute force) khi constraint nhỏ [2970]
+- Đọc constraint (n <= 50, 100...) để biết O(n^2), O(n^3) có chấp nhận được không
+
+38. Geometry
+- Khoảng cách 2 điểm: so sánh bình phương (dx*dx + dy*dy <= r*r) để tránh dùng sqrt và sai số số thực [1828]
+
+39. Counting Sort / Bucket Sort / Quicksort / Quickselect / Bubble Sort
+- Counting Sort: giá trị nằm trong khoảng nhỏ, đếm số lần xuất hiện rồi dựng lại (O(n + k)) [1365, 2037]
+- Bucket Sort: chia vào các "xô" theo tần suất hoặc khoảng giá trị [347, 692]
+- Quicksort/Quickselect: chọn pivot, partition, chỉ đệ quy vào nửa chứa đáp án (quickselect) [215]
+- Bubble Sort: đổi chỗ các cặp kề nhau (O(n^2)), chủ yếu để hiểu thuật toán [75]
+
+40. Binary Lifting / Lowest Common Ancestor
+- LCA của 2 node: node thấp nhất có cả 2 node là con cháu
+- Trong BST tận dụng tính chất trái/phải để đi xuống [235]
+- Trong Binary Tree thường: DFS, nếu trái và phải đều tìm thấy thì node hiện tại là LCA
+
+41. Knapsack / Complete Knapsack
+- Complete knapsack: mỗi item dùng không giới hạn số lần -> vòng for amount đi từ nhỏ đến lớn [322]
+- 0/1 knapsack: mỗi item dùng 1 lần -> vòng for capacity đi từ lớn về nhỏ
+
+42. Longest Increasing Subsequence (LIS)
+- DP O(n^2): dp[i] = max(dp[j] + 1) với j < i và nums[j] < nums[i]
+- Tối ưu O(n log n): giữ mảng tails và dùng Binary Search để thay phần tử
+- Bài triplet tăng dần: chỉ cần 2 biến (nhỏ nhất, nhỏ nhì), số lớn hơn cả 2 thì thỏa [334]
+
+43. Manacher / Palindrome
+- Expand around center: với mỗi vị trí, mở rộng ra 2 bên cho cả palindrome độ dài lẻ và chẵn [5]
+- Manacher: tối ưu O(n), dùng khi cần hiệu năng cao
+
+44. DP on Trees
+- DFS (postorder), hàm trả về giá trị cho node cha dùng, đồng thời cập nhật kết quả toàn cục [543]
+- Ví dụ: đường kính = max(left + right) tại mỗi node, hàm return max(left, right) + 1
